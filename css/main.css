@@ -1,0 +1,49 @@
+.fondo {
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+
+.logo {
+	margin-left: 87px;
+	margin-top: 80px;
+	width: 205px;
+	height: 120px;
+}
+
+.login {
+	background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: solid white;
+  color: black;
+}
+
+.signup {
+	background-color: #EA0B8C;
+	color: black;
+}
+
+.btn:hover {
+	background-color: #FFCEE6;
+}
+
+
+
+.fa-chevron-down {
+	color: black;
+}
+
+.bandera-chile {
+	width: 22px;
+	height: 16px;
+}
+
+.paises {
+	margin: 0px auto;
+	width: 300px;
+}
