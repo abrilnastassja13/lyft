@@ -19,20 +19,29 @@
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  border: solid white;
-  color: black;
+  color: white;
 }
 
 .signup {
 	background-color: #EA0B8C;
-	color: black;
+	color: white;
 }
 
 .btn:hover {
 	background-color: #FFCEE6;
+	color: black;
 }
 
+.btn {
+	position: relative;
+	margin-left: 100px;
 
+}
+
+.fa-chevron-left {
+	position: relative;
+	margin-right: 400px;
+}
 
 .fa-chevron-down {
 	color: black;
