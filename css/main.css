@@ -19,12 +19,12 @@
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  color: white;
+  color: #FFCEE6;
 }
 
 .signup {
 	background-color: #EA0B8C;
-	color: white;
+	color: #FFCEE6;
 }
 
 .btn:hover {
@@ -63,5 +63,5 @@
 	width: 224px;
 	height: 44px;
 	margin: 0px auto;
-
+	color: #FFCEE6;
 }
