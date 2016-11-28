@@ -65,3 +65,8 @@
 	margin: 0px auto;
 	color: #FFCEE6;
 }
+
+.boton-next {
+	position: relative;
+	top: 10px;
+}
