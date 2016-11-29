@@ -1,6 +1,6 @@
 //Alerta para numero de telefono
 
-$(document).ready(function(){
+$(document).ready(function() {
 	// aca va todo lo ejecutable
 	$("#next").on("click", function(){
 		var numeroCelular = $("#numero-celular").val();
@@ -12,3 +12,13 @@ $(document).ready(function(){
 	});
 
 });
+
+$(document).ready(function(){
+	$("#next").on("click", function() {
+		var codigoAleatorio = $ ("#codigo1").val();
+	alert("LAB - " + Math.floor((Math.random() * 8) + 1));
+
+	});
+
+});
+
