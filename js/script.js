@@ -16,9 +16,10 @@ $(document).ready(function() {
 $(document).ready(function(){
 	$("#next").on("click", function() {
 		var codigoAleatorio = $ ("#codigo1").val();
-	alert("LAB - " + Math.floor((Math.random() * 8) + 1));
+	alert("LAB - " + Math.floor((Math.random() * 8) + 1) + Math.floor((Math.random() * 8) + 1) + Math.floor((Math.random() * 8) + 1));
 
 	});
 
 });
+
 
