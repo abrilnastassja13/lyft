@@ -76,3 +76,11 @@ html, body {
   height: 100%;
 }
 
+#profile {
+	border-radius: 60%;
+	width: 5%;
+  position: absolute;
+  /*top: 20px;
+  z-index: 5;
+  left: 10%;*/
+}
