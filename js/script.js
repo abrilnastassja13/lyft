@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	// aca va todo lo ejecutable
-	$("#next").on("click", function(){
+	$("#next").on("click", function() {
 		var numeroCelular = $("#numero-celular").val();
 		if (numeroCelular.length != 8) {
 			alert("Your number must contain 8 digits");
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
 	$("#next").on("click", function() {
 		var codigoAleatorio = $ ("#codigo1").val();
 	alert("LAB - " + Math.floor((Math.random() * 8) + 1) + Math.floor((Math.random() * 8) + 1) + Math.floor((Math.random() * 8) + 1));
@@ -22,4 +22,13 @@ $(document).ready(function(){
 
 });
 
+//Sidebar
+$(".button-collapse").sideNav();
 
+  // Show sideNav
+  $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');
+  // Destroy sideNav
+  $('.button-collapse').sideNav('destroy');
+        
