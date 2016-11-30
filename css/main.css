@@ -91,6 +91,10 @@ html, body {
 	color: #EA0B8C;
 }
 
+.icono {
+	font-size: 30px;
+}
+
 .direccion {
 	position: absolute;
 	bottom: 100px;
