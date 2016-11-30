@@ -25,10 +25,10 @@ $(document).ready(function() {
 //Sidebar
 $(".button-collapse").sideNav();
 
-  // Show sideNav
-  $('.button-collapse').sideNav('show');
-  // Hide sideNav
-  $('.button-collapse').sideNav('hide');
-  // Destroy sideNav
-  $('.button-collapse').sideNav('destroy');
+//Mostrar sidebar
+$('.button-collapse').sideNav('show');
+//Ocultar sidebar
+$('.button-collapse').sideNav('hide');
+/*Destroy sideNav
+$('.button-collapse').sideNav('destroy');*/
         
